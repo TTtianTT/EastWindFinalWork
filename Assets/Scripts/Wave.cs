@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wave : MonoBehaviour
+//保存每一波敌人生成所需要的属性
+[System.Serializable]
+public class Wave
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject enemyPrefab;
+    public int count;
+    public float rate;
 }
+

@@ -5,9 +5,12 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
+
     public float speed = 10;
     private Transform[] positions;
     private int index = 0;
+
+    public bool[,] mapStatus;//用来保存地图状态的数组
     // Start is called before the first frame update
     void Start()
     {
