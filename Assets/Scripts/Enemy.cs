@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
-
     public float speed = 10;
     private Transform[] positions;
     private int index = 0;
@@ -26,7 +24,7 @@ public class Enemy : MonoBehaviour
     }
 
 
-    public void Move()
+    public void Move()  //敌人移动
     {
         if(transform.position.x<56)
         {
@@ -45,4 +43,18 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    void ReachDestination()//抵达终点
+    {
+        GameObject.Destroy(this.gameObject); 
+    }
+
+    void OnDestroy()
+    {
+        EnemySpawner.CountEnemyAlive--;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        
+    }
 }
