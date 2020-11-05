@@ -1,22 +1,31 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-[System.Serializable]
+
 public class BuildManager : MonoBehaviour
 {
-    public TurretData laserTurretData;
-    public TurretData missileTurretData;
-    public TurretData standardTurretData;
+    public TurretData Turret1Data;
+    public TurretData Turret2Data;
+    public TurretData Turret3Data;
 
     //表示当前选择的炮台（要建造的炮台）
     private TurretData selectedTurretData;
+    //表示当前选择的炮台（场景中的游戏物体）
+    private GameObject selectedTurretGo;
+
+    private Animator upgradeCanvasAnimator;
+
+    public GameObject upgradeCanvas;
+
+    public Button buttonUpgrade;
 
     public Text moneyText;       //显示金额
 
-    public Animator moneyAnimator;
+    public Animator moneyAnimator;  //钱的特效
 
     private int money = 1000;    //初始金额，根据最终定价进行修改
 
@@ -45,41 +54,81 @@ public class BuildManager : MonoBehaviour
                         if (money > selectedTurretData.cost)
                         {
                             ChangeMoney(-selectedTurretData.cost);
-                            mapCube.BuildTurret(selectedTurretData.turretPrefab);
+                            mapCube.BuildTurret(selectedTurretData.turretPrefab);  //使用建造特效
                         }
                         else
                         {
-                            //提示钱不够
+                            //TOOOO提示钱不够
                             moneyAnimator.SetTrigger("Flicker");
                         }
                     }
+                    else if (mapCube.turretGo != null)
+                        {
+                            //TOOO升级处理
+                            if (mapCube.turretGo == selectedTurretGo && upgradeCanvas.activeInHierarchy)
+                            {
+                                StartCoroutine(HideUpgradeUI());
+                            }
+                            else
+                            {
+                                ShowUpgradeUI(mapCube.transform.position, mapCube.isUpgraded);
+                            }
+                            selectedTurretGo = mapCube.turretGo;
+                        }
+                        
                 }
             }
         }
     }
 
-    public void OnLaserSelected(bool isOn)
+    public void OnTurret1Selected(bool isOn)
     {
         if (isOn)
         {
-            selectedTurretData = laserTurretData;
+            selectedTurretData = Turret1Data;
         }
     }
 
-    public void OnMissileSelected(bool isOn)
+    public void OnTurret2Selected(bool isOn)
     {
         if (isOn)
         {
-            selectedTurretData = missileTurretData;
+            selectedTurretData = Turret2Data;
         }
     }
 
-    public void OnStandardSelected(bool isOn)
+    public void OnTurret3Selected(bool isOn)
     {
         if (isOn)
         {
-            selectedTurretData = standardTurretData;
+            selectedTurretData = Turret3Data;
         }
     }
+
+
+void ShowUpgradeUI(Vector3 pos, bool isDisableUpgrade = false)
+{
+    StopCoroutine("HideUpgradeUI");
+    upgradeCanvas.SetActive(false);
+    upgradeCanvas.SetActive(true);
+    upgradeCanvas.transform.position = pos;
+    buttonUpgrade.interactable = !isDisableUpgrade;
+}
+IEnumerator HideUpgradeUI()
+{
+    upgradeCanvasAnimator.SetTrigger("Hide");
+    //upgradeCanvas.SetActive(false);
+    yield return new WaitForSeconds(0.8f);
+    upgradeCanvas.SetActive(false);
+}
+
+public void OnUpgradeButtonDown()
+{
+    //tooo
+}
+public void OnDestroyButtonDown()
+{
+    //tooo
+}
 }
 
