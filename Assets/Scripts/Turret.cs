@@ -26,6 +26,7 @@ public class Turret : MonoBehaviour
     private float timer = 0;
     public GameObject bulletPrefab;  //子弹
     public Transform firePosition;
+    public Transform turretbody;    //炮塔转向追踪敌人的部分
          
     void Start()
     {
@@ -37,14 +38,54 @@ public class Turret : MonoBehaviour
         timer += Time.deltaTime;
         if(enemys.Count>0&&timer>=attackRateTime)
         { 
-            timer -= attackRateTime;
+            timer = 0;
             Attack();
+        }
+
+        //有敌人时，炮塔指向第一个敌人（y轴方向一致）
+        if (enemys.Count > 0 && enemys[0] != null)
+        {
+            Vector3 targetPosition = enemys[0].transform.position;
+            targetPosition.y = turretbody.position.y;
+            turretbody.LookAt(targetPosition);
         }
     }
 
+    //炮塔攻击目标
     void Attack()
     {
-        GameObject bullet = GameObject.Instantiate(bulletPrefab, firePosition.position, firePosition.rotation);
-        bullet.GetComponent<Bullet>().SetTarget(enemys[0].transform);
+        if(enemys[0]==null)  //最前面的敌人血量为0之后，更新敌人列表
+        {
+            UpdateEnemy();
+        }
+        if(enemys.Count>0)  //敌人数量大于0，攻击
+        {
+            GameObject bullet = GameObject.Instantiate(bulletPrefab, firePosition.position, firePosition.rotation);
+            bullet.GetComponent<Bullet>().SetTarget(enemys[0].transform);
+
+        }
+        else
+        {
+            timer = attackRateTime;
+        }
+    }
+
+    //更新敌人列表，移除血量为0的敌人
+    void UpdateEnemy()
+    {
+        //enemys.RemoveAll(null);
+        List<int> emptyIndex = new List<int>();//保存所有血量为0的敌人
+        for(int index = 0;index <enemys.Count; index++)
+        {
+            if(enemys[index]==null)
+            {
+                emptyIndex.Add(index);
+            }
+        }
+
+        for(int i=0;i<emptyIndex.Count;i++)
+        {//根据索引移除
+            enemys.RemoveAt(emptyIndex[i] - 1);
+        }
     }
 }

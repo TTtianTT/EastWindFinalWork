@@ -5,10 +5,14 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed = 10;
+    public int hp = 150;  //敌人初始血量
+    public GameObject explosionEffect;//敌人销毁特效
     private Transform[] positions;
     private int index = 0;
 
     public bool[,] mapStatus;//用来保存地图状态的数组
+    public GameObject[,] open;
+    public GameObject[,] close;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +34,14 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+            if (transform.position.z < 56)
+            {
+                transform.Translate(Vector3.forward * Time.deltaTime * speed);
+            }
+            else
+            {
+                return;
+            }
         }
     }
 
@@ -46,6 +57,18 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        
+        if (hp <= 0) return;
+        hp -= damage;
+        if(hp<=0)   //敌人没血之后做处理
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        GameObject effect = GameObject.Instantiate(explosionEffect, transform.position, transform.rotation);
+        Destroy(effect, 1.5f);
+        Destroy(this.gameObject);
     }
 }
