@@ -80,10 +80,10 @@ public class Grid : MonoBehaviour
                 // 构建一个节点
                 grid[x, y] = new APoint(isWall, pos, x, y);
                 // 如果是墙体，则画出不可行走的区域
-                if (isWall)
+                if (isWall)//if isWall == true
                 {
-                    GameObject obj = GameObject.Instantiate(NodeWall, pos, Quaternion.identity) as GameObject;
-                    obj.transform.SetParent(WallRange.transform);
+                    GameObject obj = GameObject.Instantiate(NodeWall, pos, Quaternion.identity) as GameObject;//init a gameobject
+                    obj.transform.SetParent(WallRange.transform);//将这个gameobject的父亲设置为wallRange
                 }
             }
         }
@@ -124,13 +124,13 @@ public class Grid : MonoBehaviour
     // 更新路径
     public void updatePath(List<APoint> lines)
     {
-        int curListSize = pathObj.Count;
+        int curListSize = pathObj.Count;//pathObj为可行的方块的数组
         for (int i = 0, max = lines.Count; i < max; i++)
         {
             if (i < curListSize)
             {
                 pathObj[i].transform.position = lines[i].pos;
-                pathObj[i].SetActive(true);
+                pathObj[i].SetActive(true);//如果是路径，将这个位置的transform设置为active
             }
             else
             {
@@ -141,7 +141,7 @@ public class Grid : MonoBehaviour
         }
         for (int i = lines.Count; i < curListSize; i++)
         {
-            pathObj[i].SetActive(false);
+            pathObj[i].SetActive(false);//将pathObj中 下标为line.Count~curListSize的设置为false
         }
     }
 }

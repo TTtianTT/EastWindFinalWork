@@ -76,7 +76,6 @@ public class FindPath2 : MonoBehaviour
                 }
             }
         }
-
         generatePath(startNode, null);
     }
 

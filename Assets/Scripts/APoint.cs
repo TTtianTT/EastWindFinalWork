@@ -23,7 +23,7 @@ public class APoint
         get { return gCost + hCost; }
     }
     // 父节点
-    public APoint parent { get; }
+    public APoint parent { get; set; }
 
     public APoint(bool isObstacle, Vector3 postion, int x, int y)
     {
