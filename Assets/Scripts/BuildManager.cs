@@ -48,7 +48,7 @@ public class BuildManager : MonoBehaviour
                 if (isCollider)
                 {             //首先判断被点中的方块上是否为空
                     MapCube mapCube = hit.collider.GetComponent < MapCube > ();
-                    if (mapCube.turretGo == null)
+                    if (selectedTurretData !=null && mapCube.turretGo == null)
                     {
                         //钱足够，可以创建
                         if (money > selectedTurretData.cost)
@@ -62,6 +62,7 @@ public class BuildManager : MonoBehaviour
                             moneyAnimator.SetTrigger("Flicker");
                         }
                     }
+
                     else if (mapCube.turretGo != null)
                         {
                             //TOOO升级处理
@@ -76,6 +77,13 @@ public class BuildManager : MonoBehaviour
                             selectedTurretGo = mapCube.turretGo;
                         }
                         
+
+                    else if(mapCube.turretGo != null)  //方块上面已经有炮塔
+                    {
+                        //升级处理
+
+                    }
+
                 }
             }
         }
