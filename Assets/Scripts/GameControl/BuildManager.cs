@@ -19,9 +19,9 @@ public class BuildManager : MonoBehaviour
 
     private Animator upgradeCanvasAnimator;
 
-    public GameObject upgradeCanvas;
+    //public GameObject upgradeCanvas;
 
-    public Button buttonUpgrade;
+    //public Button buttonUpgrade;
 
     public Text moneyText;       //显示金额
 
@@ -65,7 +65,7 @@ public class BuildManager : MonoBehaviour
                         }
                     }
 
-                    else if (mapCube.turretGo != null)
+                /*    else if (mapCube.turretGo != null)
                         {
                             //TOOO升级处理
                             if (mapCube.turretGo == selectedTurretGo && upgradeCanvas.activeInHierarchy)
@@ -78,7 +78,7 @@ public class BuildManager : MonoBehaviour
                             }
                             selectedTurretGo = mapCube.turretGo;
                         }
-                        
+                        */
 
                     else if(mapCube.turretGo != null)  //方块上面已经有炮塔
                     {
@@ -115,7 +115,7 @@ public class BuildManager : MonoBehaviour
         }
     }
 
-
+/*隐藏升级按钮
 void ShowUpgradeUI(Vector3 pos, bool isDisableUpgrade = false)
 {
     StopCoroutine("HideUpgradeUI");
@@ -131,7 +131,7 @@ IEnumerator HideUpgradeUI()
     yield return new WaitForSeconds(0.8f);
     upgradeCanvas.SetActive(false);
 }
-
+*/
 public void OnUpgradeButtonDown()
 {
     //tooo
