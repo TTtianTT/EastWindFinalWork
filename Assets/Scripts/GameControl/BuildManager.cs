@@ -55,6 +55,8 @@ public class BuildManager : MonoBehaviour
                         {
                             ChangeMoney(-selectedTurretData.cost);
                             mapCube.BuildTurret(selectedTurretData.turretPrefab);  //使用建造特效
+
+                            
                         }
                         else
                         {
