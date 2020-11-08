@@ -71,8 +71,6 @@
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DealDamageComponent.cs" />
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DemoController.cs" />
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DestroyMe.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
-    <Compile Include="Assets\Script\GameMenu.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\EagleFly.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\ForestArmFire.cs" />
     <Compile Include="Assets\Scripts\AStarManager.cs" />
