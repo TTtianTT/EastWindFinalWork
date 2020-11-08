@@ -61,6 +61,7 @@ public class Enemy : MonoBehaviour
 
     void ReachDestination()//抵达终点
     {
+        GameManager.Instance.Failed();
         GameObject.Destroy(this.gameObject); 
     }
 
