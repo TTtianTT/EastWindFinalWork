@@ -16,10 +16,6 @@ public class Enemy : MonoBehaviour
 
     private List<AStarNode> pos;//存放路径
 
-    //public bool[,] mapStatus = new bool[15, 15];//用来保存地图状态的数组
-    //public GameObject[,] open;
-    //public GameObject[,] close;
-
 
     // Start is called before the first frame update
 
@@ -32,19 +28,22 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
+
         totalHp = hp;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
+        //ChangeMap();
+
     }
 
 
     void Move()
     {
-
         float step = speed * Time.deltaTime;
 
         if (index > pos.Count - 1) return;
@@ -101,6 +100,16 @@ public class Enemy : MonoBehaviour
             Debug.Log(vec.x);
             Debug.Log(vec.z);//成功
         }
+    }
+    void ChangeMap()
+    {
+        AStarNode node1 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
+        AStarManager.getInstance().nodes[1, 0] = node1;
+
+        //int x = (int)vector.x / 4;
+        //int y = (int)vector.y / 4;
+        //AStarNode node1 = new AStarNode(true,vector, x, y);
+        //AStarManager.getInstance().nodes[x, y] = node1;
     }
 
     //void InitMap()

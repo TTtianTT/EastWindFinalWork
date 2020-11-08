@@ -43,8 +43,18 @@ public class AStarManager
                 nodes[i, j] = node;
             }
         }
-        AStarNode node1 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
-        nodes[1, 0] = node1;
+        //AStarNode node1 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
+        //nodes[1, 0] = node1;
+        //AStarNode node2 = new AStarNode(true, new Vector3(8, 3, 8), 2, 2);
+        //nodes[2, 2] = node2;
+        //AStarNode node3 = new AStarNode(true, new Vector3(16, 3, 16), 4, 4);
+        //nodes[4, 4] = node3;
+        //AStarNode node4 = new AStarNode(true, new Vector3(4, 3, 4), 1, 1);
+        //nodes[1, 1] = node4;
+        //AStarNode node5 = new AStarNode(true, new Vector3(4, 3, 8), 1, 2);
+        //nodes[1, 2] = node5;
+        //AStarNode node6 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
+
     }
 
     public List<AStarNode> FindPath(Vector3 startPosition, Vector3 endPosition)
