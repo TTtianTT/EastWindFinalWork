@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour
     void ReachDestination()//抵达终点
     {
         GameManager.Instance.Failed();
-        GameObject.Destroy(this.gameObject); 
+        GameObject.Destroy(this.gameObject);
     }
 
     void OnDestroy()
@@ -75,7 +75,7 @@ public class Enemy : MonoBehaviour
         if (hp <= 0) return;
         hp -= damage;
         hpSlier.value = (float)hp / totalHp;//敌人受到攻击之后，对血量条做处理
-        if(hp<=0)   //敌人没血之后做处理
+        if (hp <= 0)   //敌人没血之后做处理
         {
             Die();
         }
