@@ -2,12 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
     public float speed = 10;
     public int hp = 150;  //敌人初始血量
+    private int totalHp;    //敌人总血量
     public GameObject explosionEffect;//敌人销毁特效
+    public Slider hpSlier;  //敌人血量条
     private Transform[] positions;
     private int index = 0;
 
@@ -25,6 +28,8 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
+
+        totalHp = hp;
 
     }
 
@@ -68,6 +73,7 @@ public class Enemy : MonoBehaviour
     {
         if (hp <= 0) return;
         hp -= damage;
+        hpSlier.value = (float)hp / totalHp;//敌人受到攻击之后，对血量条做处理
         if(hp<=0)   //敌人没血之后做处理
         {
             Die();
