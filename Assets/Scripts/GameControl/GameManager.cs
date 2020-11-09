@@ -29,9 +29,10 @@ public class GameManager : MonoBehaviour
         endUI.SetActive(true);
         endMessage.text = "失 败";
     }
-
+    
     public void OnButtonRetry()
     {
+        //SceneManager.LoadScene(1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void OnButtonMenu()
