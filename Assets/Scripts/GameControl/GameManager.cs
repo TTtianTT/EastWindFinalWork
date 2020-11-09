@@ -15,11 +15,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        this.enemySpawner = GetComponent<EnemySpawner>();
-        if(enemySpawner == null)
-        {
-            Debug.Log("没找到");
-        }
+        enemySpawner = GetComponent<EnemySpawner>();
     }
 
     public void Win()
@@ -41,6 +37,6 @@ public class GameManager : MonoBehaviour
     }
     public void OnButtonMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
