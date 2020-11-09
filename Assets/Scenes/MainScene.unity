@@ -2726,8 +2726,8 @@ MonoBehaviour:
   waves:
   - enemyPrefab: {fileID: 6287708402842651812, guid: 92a5ff611708b6a41af39b17e891719e,
       type: 3}
-    count: 2
-    rate: 3
+    count: 1
+    rate: 0
   START: {fileID: 933123042}
   waveRate: 0.2
 --- !u!1 &151552369

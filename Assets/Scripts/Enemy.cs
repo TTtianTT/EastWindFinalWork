@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     public float speed = 10;
-    public int hp = 150;  //敌人初始血量
-    private int totalHp;    //敌人总血量
+    public float hp = 150;  //敌人初始血量
+    private float totalHp;    //敌人总血量
     public GameObject explosionEffect;//敌人销毁特效
     public Slider hpSlier;  //敌人血量条
     private Transform[] positions;
@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour
         }
         if (index > pos.Count - 1)
         {
-            Debug.Log("到达终点了");
+            //Debug.Log("到达终点了");
             ReachDestination();
         }
     }
@@ -70,7 +70,7 @@ public class Enemy : MonoBehaviour
         EnemySpawner.CountEnemyAlive--;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         if (hp <= 0) return;
         hp -= damage;
@@ -83,8 +83,8 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        GameObject effect = GameObject.Instantiate(explosionEffect, transform.position, transform.rotation);
-        Destroy(effect, 1.5f);
+        //GameObject effect = GameObject.Instantiate(explosionEffect, transform.position, transform.rotation);
+        //Destroy(effect, 1.5f);
         Destroy(this.gameObject);
     }
     void FindMap()

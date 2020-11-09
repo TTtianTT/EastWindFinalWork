@@ -28,19 +28,19 @@ public class EnemySpawner : MonoBehaviour
                 GameObject.Instantiate(wave.enemyPrefab, new Vector3(0,3,0), Quaternion.identity);
                 //GameObject.Instantiate(wave.enemyPrefab, START.position, Quaternion.identity);
                 CountEnemyAlive++;
-                Debug.Log($"生成中：{CountEnemyAlive}");
+                //Debug.Log($"生成中：{CountEnemyAlive}");
                 if (i != wave.count - 1)
                     yield return new WaitForSeconds(wave.rate);
             }
-            Debug.Log($"生成完成的数量{CountEnemyAlive}");
 
             while (CountEnemyAlive > 0)
             {
                 yield return 0;
             }
+            Debug.Log($"{CountEnemyAlive}");
             yield return new WaitForSeconds(waveRate);
         }
-
+        //Debug.Log($"敌人存活的数量{CountEnemyAlive}");
         while (CountEnemyAlive > 0)
         {
             yield return 0;

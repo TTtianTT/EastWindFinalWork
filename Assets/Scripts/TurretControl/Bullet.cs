@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
         if(dir.magnitude < distanceArriveTarget)
         {
             target.GetComponent<Enemy>().TakeDamage(damage);
-            
+            Die();
         }
     }
 
@@ -53,8 +53,8 @@ public class Bullet : MonoBehaviour
     //敌人被 消灭之后，子弹自行销毁
     void Die()
     {
-        GameObject effect = GameObject.Instantiate(explosionEffectPrefab, transform.position, transform.rotation);
-        Destroy(effect, 1);    //1秒之后销毁对象
+        //GameObject effect = GameObject.Instantiate(explosionEffectPrefab, transform.position, transform.rotation);
+        //Destroy(effect, 1);    //1秒之后销毁对象
         Destroy(this.gameObject);
     }
 }
