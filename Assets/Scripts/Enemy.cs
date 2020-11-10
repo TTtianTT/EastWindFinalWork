@@ -83,10 +83,12 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        //GameObject effect = GameObject.Instantiate(explosionEffect, transform.position, transform.rotation);
-        //Destroy(effect, 1.5f);
-        Destroy(this.gameObject);
+        //实例化特效
+        GameObject effect = GameObject.Instantiate(explosionEffect, transform.position, transform.rotation);
+        Destroy(effect, 1.5f);
+        Destroy(this.gameObject, 0.5f);
     }
+
     void FindMap()
     {
         var gameobj = GameObject.Find("GrassCube (115)");
