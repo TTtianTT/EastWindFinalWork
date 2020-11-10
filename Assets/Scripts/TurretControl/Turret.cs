@@ -85,7 +85,7 @@ public class Turret : MonoBehaviour
 
         for(int i=0;i<emptyIndex.Count;i++)
         {//根据索引移除
-            enemys.RemoveAt(emptyIndex[i] - 1);
+            enemys.RemoveAt(emptyIndex[i] - i);
         }
     }
 }
