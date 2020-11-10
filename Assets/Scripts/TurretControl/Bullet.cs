@@ -24,12 +24,13 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         //目标怪物消失，调用方法销毁子弹
+        
         if(target == null)
         {
             Die();
             return;  //以下代码不再运行
         }
-
+        
         transform.LookAt(target.position);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
@@ -42,6 +43,7 @@ public class Bullet : MonoBehaviour
     }
 
     //触发器检测子弹和敌人碰撞
+    /*
     void OnTriggerEnter(Collider col)
     {
         if (col.tag == "Enemy")
@@ -49,12 +51,13 @@ public class Bullet : MonoBehaviour
             col.GetComponent<Enemy>().TakeDamage(damage);
         }
     }
+    */
 
     //敌人被 消灭之后，子弹自行销毁
     void Die()
     {
-        //GameObject effect = GameObject.Instantiate(explosionEffectPrefab, transform.position, transform.rotation);
-        //Destroy(effect, 1);    //1秒之后销毁对象
+        GameObject effect = GameObject.Instantiate(explosionEffectPrefab, transform.position, transform.rotation);
+        Destroy(effect, 1);    //1秒之后销毁对象
         Destroy(this.gameObject);
     }
 }
