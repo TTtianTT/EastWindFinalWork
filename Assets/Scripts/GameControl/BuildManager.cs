@@ -15,13 +15,13 @@ public class BuildManager : MonoBehaviour
     //表示当前选择的炮台（要建造的炮台）
     private TurretData selectedTurretData;
     //表示当前选择的炮台（场景中的游戏物体）
-    private GameObject selectedTurretGo;
+    private MapCube selectedMapCube;
 
     private Animator upgradeCanvasAnimator;
 
-    //public GameObject upgradeCanvas;
+    public GameObject upgradeCanvas;
 
-    //public Button buttonUpgrade;
+    public Button buttonUpgrade;
 
     public Text moneyText;       //显示金额
 
@@ -34,7 +34,10 @@ public class BuildManager : MonoBehaviour
         money += change;
         moneyText.text = "¥" + money;
     }
-
+     void Start()
+    {
+        upgradeCanvasAnimator = upgradeCanvas.GetComponent<Animator>(); 
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -54,21 +57,21 @@ public class BuildManager : MonoBehaviour
                         if (money > selectedTurretData.cost)
                         {
                             ChangeMoney(-selectedTurretData.cost);
-                            mapCube.BuildTurret(selectedTurretData.turretPrefab);  //使用建造特效
+                            mapCube.BuildTurret(selectedTurretData);  //使用建造特效
 
                             
                         }
                         else
                         {
-                            //TOOOO提示钱不够
+                            //提示钱不够
                             moneyAnimator.SetTrigger("Flicker");
                         }
                     }
 
-                /*    else if (mapCube.turretGo != null)
+                    else if (mapCube.turretGo != null)
                         {
                             //TOOO升级处理
-                            if (mapCube.turretGo == selectedTurretGo && upgradeCanvas.activeInHierarchy)
+                            if (mapCube.turretGo == selectedMapCube && upgradeCanvas.activeInHierarchy)
                             {
                                 StartCoroutine(HideUpgradeUI());
                             }
@@ -76,9 +79,9 @@ public class BuildManager : MonoBehaviour
                             {
                                 ShowUpgradeUI(mapCube.transform.position, mapCube.isUpgraded);
                             }
-                            selectedTurretGo = mapCube.turretGo;
+                            selectedMapCube = mapCube;
                         }
-                        */
+                        
 
                     else if(mapCube.turretGo != null)  //方块上面已经有炮塔
                     {
@@ -115,7 +118,7 @@ public class BuildManager : MonoBehaviour
         }
     }
 
-/*隐藏升级按钮
+
 void ShowUpgradeUI(Vector3 pos, bool isDisableUpgrade = false)
 {
     StopCoroutine("HideUpgradeUI");
@@ -131,14 +134,28 @@ IEnumerator HideUpgradeUI()
     yield return new WaitForSeconds(0.8f);
     upgradeCanvas.SetActive(false);
 }
-*/
+
 public void OnUpgradeButtonDown()
 {
-    //tooo
+        /*升级钱的减少
+        if (money >= selectedMapCube.turretData.costUpgradePrefab)
+        {
+            ChangeMoney(-selectedMapCube.turretData.costUpgradePrefab);
+            selectedMapCube.UpgradeTurret();
+        }
+        else
+        {
+            moneyAnimator.SetTrigger("Flicker");
+        }*/
+
+        selectedMapCube.UpgradeTurret();
+        StartCoroutine(HideUpgradeUI());
 }
 public void OnDestroyButtonDown()
 {
-    //tooo
-}
+        //tooo
+        selectedMapCube.DestroyTurret();
+        StartCoroutine(HideUpgradeUI());
+    }
 }
 
