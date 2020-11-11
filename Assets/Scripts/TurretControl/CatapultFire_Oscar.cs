@@ -5,11 +5,12 @@ using UnityEngine.Networking.Types;
 
 public class CatapultFire_Oscar : MonoBehaviour
 {
-    public List<GameObject> enemys = new List<GameObject>();
+    public List<GameObject> enemys;
     Animator animator;
 
     void Start()
     {
+        enemys = new List<GameObject>();
         animator = GetComponent<Animator>();
     }
 
