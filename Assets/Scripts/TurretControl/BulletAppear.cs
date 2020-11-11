@@ -7,11 +7,12 @@ public class BulletAppear : MonoBehaviour
     public Transform bulletPosition;
     public GameObject bulletPrefab;
     public List<GameObject> enemys = new List<GameObject>();
-    CatapultFire_Oscar c2 = new CatapultFire_Oscar();
+    CatapultFire_Oscar c2 ;
     public Transform head;
     // Start is called before the first frame update
     void Start()
     {
+        //c2 = new CatapultFire_Oscar();
         c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
     }
 
