@@ -10,7 +10,7 @@ public class BulletAppear : MonoBehaviour
     public Transform bulletPosition;
     public GameObject bulletPrefab;
     public List<GameObject> enemys = new List<GameObject>();
-    CatapultFire_Oscar c2 ;
+    CatapultFire_Oscar c2;
     public Transform head;
     // Start is called before the first frame update
     void Start()
