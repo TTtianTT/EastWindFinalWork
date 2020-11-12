@@ -29,6 +29,7 @@ public class mysql : MonoBehaviour
                         {
                             Debug.Log(field + "\t");
                         }
+                        Debug.Log("\n");    //输出完一列之后换行输出
                     }
                 }
             }

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\IKHands.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\WarriorAnimationDemoFREE.cs" />
+    <Compile Include="Assets\Nokobot\Sci-Fi_Crossbow\Demo\Scripts\CrossbowShoot.cs" />
     <Compile Include="Assets\Scenes\mysql.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\EagleFly.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\ForestArmFire.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Scripts\GameControl\GameMenu.cs" />
     <Compile Include="Assets\Scripts\GameControl\ViewController.cs" />
     <Compile Include="Assets\Scripts\MapCube.cs" />
+    <Compile Include="Assets\Scripts\SaveGameData.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Arrow1.cs" />
     <Compile Include="Assets\Scripts\TurretControl\ArrowAppear.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Bullet.cs" />
