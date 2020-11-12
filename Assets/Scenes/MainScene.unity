@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -217,6 +217,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -397,6 +403,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1052,6 +1064,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1160,6 +1178,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1343,6 +1367,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1544,6 +1574,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1652,6 +1688,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -1893,6 +1935,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 93569758}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &97801474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1647511612175272659, guid: 1688e106c3c16cc468c1589e43306372,
+    type: 3}
+  m_PrefabInstance: {fileID: 1812485859}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98093875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,6 +2052,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2158,6 +2218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2266,6 +2332,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2374,6 +2446,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2482,6 +2560,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2670,17 +2754,25 @@ MonoBehaviour:
     turretPrefab: {fileID: 3613539594026640980, guid: 62e7a7802372a464798a7f4bfbb7ba96,
       type: 3}
     cost: 50
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
     type: 0
   Turret2Data:
-    turretPrefab: {fileID: 7401909307516277720, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+    turretPrefab: {fileID: 6458454556377962152, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
       type: 3}
     cost: 60
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
     type: 0
   Turret3Data:
     turretPrefab: {fileID: 5288168554694484708, guid: 6b37cd24dff33e0449d074266094164b,
       type: 3}
     cost: 70
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
     type: 0
+  upgradeCanvas: {fileID: 866047162}
+  buttonUpgrade: {fileID: 97801474}
   moneyText: {fileID: 444515425}
   moneyAnimator: {fileID: 444515427}
 --- !u!4 &143459431
@@ -2695,7 +2787,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &143459432
 MonoBehaviour:
@@ -2835,6 +2927,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -2943,6 +3041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3051,6 +3155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3159,6 +3269,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3267,6 +3383,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3375,6 +3497,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3483,6 +3611,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3590,7 +3724,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &182813753
 MonoBehaviour:
@@ -3605,6 +3739,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 0}
 --- !u!1 &184750737
@@ -3712,6 +3852,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -3895,6 +4041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4003,6 +4155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4111,9 +4269,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
+--- !u!1001 &227756487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4106933242606678388, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Archer Warrior1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.606773
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.210577
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106933242607168852, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c20e6b2ae8d5f94a98ee58bdb7770d2, type: 3}
 --- !u!1 &228096147
 GameObject:
   m_ObjectHideFlags: 0
@@ -4219,6 +4452,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4402,6 +4641,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4585,6 +4830,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4768,6 +5019,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4876,6 +5133,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -4984,9 +5247,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
+--- !u!1001 &312138645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6458454556377962152, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_Name
+      value: Turret2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.90419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.597795
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458454556377962153, guid: 8762a61e9c40e9b45b0f77f1760f49e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8762a61e9c40e9b45b0f77f1760f49e4, type: 3}
 --- !u!1 &314955436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5185,6 +5523,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5293,6 +5637,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5476,6 +5826,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5584,6 +5940,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5767,6 +6129,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5875,6 +6243,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -5983,6 +6357,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -6091,6 +6471,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -6274,6 +6660,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -6504,40 +6896,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 417903233}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &419253861
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 419253862}
-  m_Layer: 0
-  m_Name: MapEdge
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &419253862
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419253861}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.545654, y: 2.0225296, z: 40.155693}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2077401833}
-  - {fileID: 1575362875}
-  - {fileID: 1989771737}
-  - {fileID: 483434044}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &427065201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6643,6 +7001,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -6721,6 +7085,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 436623358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &440303674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440303675}
+  m_Layer: 0
+  m_Name: MapEdge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440303675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440303674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 35.66, y: 1.8900003, z: 6.8199997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2077401833}
+  - {fileID: 1575362875}
+  - {fileID: 1989771737}
+  - {fileID: 483434044}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444515423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,6 +7343,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7128,6 +7532,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7236,6 +7646,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7419,6 +7835,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7527,6 +7949,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7635,6 +8063,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7743,6 +8177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -7770,7 +8210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483434043}
   m_LocalRotation: {x: -0, y: -0.7071073, z: -0, w: 0.7071063}
-  m_LocalPosition: {x: -52.945656, y: -2.0225296, z: -40.25569}
+  m_LocalPosition: {x: -44.059998, y: -1.8900003, z: -6.9199996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 181512689}
@@ -7788,7 +8228,7 @@ Transform:
   - {fileID: 1084323075}
   - {fileID: 1509624088}
   - {fileID: 348262496}
-  m_Father: {fileID: 419253862}
+  m_Father: {fileID: 440303675}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1 &483791110
@@ -7896,6 +8336,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8154,6 +8600,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8339,6 +8791,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8447,6 +8905,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8531,7 +8995,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
@@ -8652,6 +9116,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8760,6 +9230,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -8868,6 +9344,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9121,6 +9603,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9304,6 +9792,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9412,6 +9906,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9520,6 +10020,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9628,6 +10134,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9736,6 +10248,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9844,6 +10362,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -9952,6 +10476,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10060,6 +10590,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10168,6 +10704,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10519,6 +11061,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10627,6 +11175,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10735,6 +11289,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10843,6 +11403,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -10951,6 +11517,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11059,6 +11631,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11167,6 +11745,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11275,6 +11859,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11383,6 +11973,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11491,6 +12087,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11599,6 +12201,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11707,6 +12315,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11815,6 +12429,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -11923,6 +12543,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12108,6 +12734,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12216,6 +12848,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12474,6 +13112,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12582,6 +13226,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12840,6 +13490,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -12948,6 +13604,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13131,6 +13793,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13239,6 +13907,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13422,6 +14096,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13530,6 +14210,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13713,6 +14399,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -13821,6 +14513,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14076,6 +14774,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14184,9 +14888,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
+--- !u!1 &866047162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1647511612184418193, guid: 1688e106c3c16cc468c1589e43306372,
+    type: 3}
+  m_PrefabInstance: {fileID: 1812485859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &878254241
 GameObject:
   m_ObjectHideFlags: 0
@@ -14292,6 +15008,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14400,6 +15122,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14583,6 +15311,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14839,6 +15573,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -14947,6 +15687,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15055,6 +15801,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15163,6 +15915,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15346,6 +16104,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15454,6 +16218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15711,7 +16481,7 @@ Transform:
   - {fileID: 1566808815}
   - {fileID: 1033151379}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &928122907
 MonoBehaviour:
@@ -15726,6 +16496,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15834,6 +16610,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -15867,7 +16649,7 @@ Transform:
   - {fileID: 499842147}
   - {fileID: 1126940415}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946199411
 GameObject:
@@ -15974,6 +16756,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16082,6 +16870,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16190,6 +16984,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16448,6 +17248,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16556,6 +17362,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16664,6 +17476,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16772,6 +17590,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16880,6 +17704,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -16988,6 +17818,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17171,6 +18007,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17279,6 +18121,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17462,6 +18310,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17645,6 +18499,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17753,6 +18613,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -17861,6 +18727,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18032,6 +18904,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18140,6 +19018,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18233,7 +19117,7 @@ Transform:
   m_LocalScale: {x: 50, y: 1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150279001
 GameObject:
@@ -18417,6 +19301,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18525,6 +19415,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18633,6 +19529,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18741,6 +19643,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18849,6 +19757,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -18957,6 +19871,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19124,6 +20044,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19232,6 +20158,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19340,6 +20272,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19523,6 +20461,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19631,6 +20575,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19739,6 +20689,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19847,6 +20803,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -19955,6 +20917,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20063,6 +21031,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20171,6 +21145,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20279,6 +21259,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20387,6 +21373,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20645,6 +21637,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20753,6 +21751,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -20861,6 +21865,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21212,6 +22222,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21395,6 +22411,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21503,6 +22525,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21611,6 +22639,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21719,6 +22753,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -21827,6 +22867,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22008,6 +23054,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22116,6 +23168,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22224,6 +23282,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22332,6 +23396,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22440,6 +23510,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22548,6 +23624,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22656,6 +23738,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22839,6 +23927,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -22947,6 +24041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23055,6 +24155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23163,6 +24269,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23346,6 +24458,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23454,6 +24572,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23562,6 +24686,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23820,6 +24950,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -23928,6 +25064,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24111,6 +25253,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24219,6 +25367,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24327,6 +25481,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24435,6 +25595,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24618,6 +25784,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24726,6 +25898,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -24834,6 +26012,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -25011,7 +26195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575362874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.545654, y: -2.0225296, z: 23.844307}
+  m_LocalPosition: {x: -35.66, y: -1.8900003, z: 57.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 972644338}
@@ -25031,7 +26215,7 @@ Transform:
   - {fileID: 707020461}
   - {fileID: 851126482}
   - {fileID: 718964955}
-  m_Father: {fileID: 419253862}
+  m_Father: {fileID: 440303675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576366520
@@ -25101,7 +26285,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1577136545
 PrefabInstance:
@@ -25451,6 +26635,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -25559,6 +26749,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -25667,6 +26863,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -25775,6 +26977,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -25813,7 +27021,7 @@ Transform:
   - {fileID: 1347330155}
   - {fileID: 1819274721}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1607662352
 Animator:
@@ -25939,6 +27147,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26047,6 +27261,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26155,6 +27375,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26263,6 +27489,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26371,6 +27603,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26556,6 +27794,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26664,6 +27908,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -26772,6 +28022,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27030,6 +28286,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27138,6 +28400,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27246,6 +28514,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27354,6 +28628,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27462,6 +28742,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27570,6 +28856,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27771,6 +29063,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -27879,6 +29177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28059,6 +29363,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28167,6 +29477,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28275,6 +29591,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28458,6 +29780,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28566,6 +29894,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28674,6 +30008,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28782,6 +30122,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28890,6 +30236,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -28998,9 +30350,159 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
+--- !u!1001 &1812485859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1647511612175272659, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 143459430}
+    - target: {fileID: 1647511612175272659, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUpgradeButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612182310266, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 143459430}
+    - target: {fileID: 1647511612182310266, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDestroyButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418193, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_Name
+      value: UpgradeCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418193, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.14722678
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00007505369
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0005495275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98910266
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 16.932001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.019000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 41.82794
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 27.465492
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647511612184418197, guid: 1688e106c3c16cc468c1589e43306372,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1688e106c3c16cc468c1589e43306372, type: 3}
 --- !u!4 &1819274721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4250194190830900, guid: e7775214e5f7b1f469df26ce7b30e009,
@@ -29187,6 +30689,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -29295,6 +30803,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -29403,6 +30917,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -29511,6 +31031,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -29769,6 +31295,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -29954,6 +31486,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -30137,6 +31675,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -30309,7 +31853,7 @@ RectTransform:
   - {fileID: 444515424}
   - {fileID: 1217844172}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -30421,6 +31965,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -30529,6 +32079,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -30833,7 +32389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1947001410
 GameObject:
@@ -30940,6 +32496,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31048,6 +32610,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31156,6 +32724,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31264,6 +32838,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31394,7 +32974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989771736}
   m_LocalRotation: {x: -0, y: -0.7071073, z: -0, w: 0.7071063}
-  m_LocalPosition: {x: 11.754345, y: -2.0225296, z: -40.25569}
+  m_LocalPosition: {x: 20.64, y: -1.8900003, z: -6.9199996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1559502140}
@@ -31413,7 +32993,7 @@ Transform:
   - {fileID: 2089882200}
   - {fileID: 1357628963}
   - {fileID: 474096324}
-  m_Father: {fileID: 419253862}
+  m_Father: {fileID: 440303675}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1 &1991353347
@@ -31521,6 +33101,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31629,6 +33215,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31737,6 +33329,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -31920,6 +33518,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -32100,6 +33704,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -32208,6 +33818,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -32541,6 +34157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -32649,6 +34271,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -32676,7 +34304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077401832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.545654, y: -2.0225296, z: -40.155693}
+  m_LocalPosition: {x: -35.66, y: -1.8900003, z: -6.8199997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 986941103}
@@ -32695,7 +34323,7 @@ Transform:
   - {fileID: 706589647}
   - {fileID: 1672674411}
   - {fileID: 1819280346}
-  m_Father: {fileID: 419253862}
+  m_Father: {fileID: 440303675}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2077601982
@@ -32878,6 +34506,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33136,6 +34770,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33244,6 +34884,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33352,6 +34998,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33605,6 +35257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33713,6 +35371,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}
@@ -33821,6 +35485,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretGo: {fileID: 0}
+  turretData:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    turretUpgradePrefab: {fileID: 0}
+    costUpgradePrefab: 0
+    type: 0
   isUpgraded: 0
   buildEffect: {fileID: 4853909864034025561, guid: 3fab8328f0c8bb643a97870f59b56cef,
     type: 3}

@@ -7,8 +7,8 @@ public class TurretData
 {
     public GameObject turretPrefab;
     public int cost;
-   // public GameObject turretUpgradePrefab;
-   // public int costUpgradePrefab;
+    public GameObject turretUpgradePrefab;
+    public int costUpgradePrefab;
     public TurretType type;
 }
 
