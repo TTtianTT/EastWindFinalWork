@@ -137,7 +137,7 @@ IEnumerator HideUpgradeUI()
 
 public void OnUpgradeButtonDown()
 {
-        /*升级钱的减少
+        
         if (money >= selectedMapCube.turretData.costUpgradePrefab)
         {
             ChangeMoney(-selectedMapCube.turretData.costUpgradePrefab);
@@ -146,7 +146,7 @@ public void OnUpgradeButtonDown()
         else
         {
             moneyAnimator.SetTrigger("Flicker");
-        }*/
+        }
 
         selectedMapCube.UpgradeTurret();
         StartCoroutine(HideUpgradeUI());
