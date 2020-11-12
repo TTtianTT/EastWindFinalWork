@@ -49,7 +49,7 @@ public class BuildManager : MonoBehaviour
                 RaycastHit hit;
                 bool isCollider = Physics.Raycast(ray, out hit, 1000, LayerMask.GetMask("MapCube"));//获取集中的方块
                 if (isCollider)
-                {             //首先判断被点中的方块上是否为空
+                {   //首先判断被点中的方块上是否为空
                     MapCube mapCube = hit.collider.GetComponent < MapCube > ();
                     if (selectedTurretData !=null && mapCube.turretGo == null)
                     {
@@ -58,8 +58,6 @@ public class BuildManager : MonoBehaviour
                         {
                             ChangeMoney(-selectedTurretData.cost);
                             mapCube.BuildTurret(selectedTurretData);  //使用建造特效
-
-                            
                         }
                         else
                         {

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BulletAppear : MonoBehaviour
 {
+    public float attackRateTime = 1; //1秒攻击一次
+    private float timer = 0;
+
     public Transform bulletPosition;
     public GameObject bulletPrefab;
     public List<GameObject> enemys = new List<GameObject>();
@@ -12,6 +15,7 @@ public class BulletAppear : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timer = attackRateTime;
         //c2 = new CatapultFire_Oscar();
         c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
     }
@@ -21,6 +25,14 @@ public class BulletAppear : MonoBehaviour
     {
         c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
         enemys = c2.enemys;
+
+        timer += Time.deltaTime;
+        if (enemys.Count > 0 && timer >= attackRateTime)
+        {
+            timer = 0;
+            CreateBullet();
+        }
+
         if (enemys.Count > 0 && enemys[0] != null)
         {
             Vector3 targetPosition = enemys[0].transform.position;
@@ -74,6 +86,7 @@ public class BulletAppear : MonoBehaviour
         else
         {
             Debug.Log(enemys.Count);
+            timer = attackRateTime;
         }
 
     }
