@@ -155,7 +155,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5673693638149806113}
   m_Layer: 0
+<<<<<<< HEAD:Assets/Prefab/TurretTotal/Archer.prefab
   m_Name: B_L_Foot
+=======
+  m_Name: Archer Warrior1
+>>>>>>> ecd230f2daabcc20ed57405498c962917f7d871c:Assets/Prefab/TurretTotal/Archer Warrior1.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,10 +171,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefab/TurretTotal/Archer.prefab
   m_GameObject: {fileID: 612048533316227284}
   m_LocalRotation: {x: 0.00000047264385, y: -0.000000048054105, z: -0.049979202, w: 0.99875027}
   m_LocalPosition: {x: -0.5595047, y: -0.000000009536743, z: -0.000000028610229}
   m_LocalScale: {x: 0.9999998, y: 0.9999997, z: 1}
+=======
+  m_GameObject: {fileID: 4106933242606678388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 35.66, y: 2.03, z: 7.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> ecd230f2daabcc20ed57405498c962917f7d871c:Assets/Prefab/TurretTotal/Archer Warrior1.prefab
   m_Children:
   - {fileID: 7251621317145358991}
   m_Father: {fileID: 5957478340802118193}

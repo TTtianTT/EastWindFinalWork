@@ -46,7 +46,7 @@ public class Turret : MonoBehaviour
         if (enemys.Count > 0 && enemys[0] != null)
         {
             Vector3 targetPosition = enemys[0].transform.position;
-            targetPosition.y = turretbody.position.y;
+            targetPosition.y = turretbody.position.x;
             turretbody.LookAt(targetPosition);
         }
     }
