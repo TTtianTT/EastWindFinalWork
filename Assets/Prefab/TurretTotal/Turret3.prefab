@@ -230,7 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemys: []
   arrowPosition: {fileID: 1040035786239715448}
-  arrowPrefab: {fileID: 1141200748744752, guid: c03560c7ff35b094190df190944f425a,
+  arrowPrefab: {fileID: 4723551466287374887, guid: aa36dd31457c57b4dbcd2cae5da32387,
     type: 3}
   head: {fileID: 1049550949866501042}
   attackRateTime: 1

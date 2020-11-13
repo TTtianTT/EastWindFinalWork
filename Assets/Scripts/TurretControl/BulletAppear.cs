@@ -28,18 +28,19 @@ public class BulletAppear : MonoBehaviour
         //enemys = c2.enemys;
 
         timer += Time.deltaTime;
-        if (enemys.Count > 0 && timer >= attackRateTime)
-        {
-            timer = 0;
-            CreateBullet();
-        }
-
         if (enemys.Count > 0 && enemys[0] != null)
         {
             Vector3 targetPosition = enemys[0].transform.position;
             targetPosition.y = head.position.y;
             head.LookAt(targetPosition);
         }
+        if (enemys.Count > 0 && timer >= attackRateTime)
+        {
+            timer = 0;
+            CreateBullet();
+        }
+
+        
     }
 
     private void OnTriggerEnter(Collider other)
