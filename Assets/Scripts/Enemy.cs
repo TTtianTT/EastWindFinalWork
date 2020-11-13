@@ -47,6 +47,7 @@ public class Enemy : MonoBehaviour
         float step = speed * Time.deltaTime;
 
         if (index > pos.Count - 1) return;
+        gameObject.transform.LookAt(pos[index].postion);
         gameObject.transform.localPosition = Vector3.MoveTowards(gameObject.transform.localPosition, pos[index].postion, step);
         if (Vector3.Distance(pos[index].postion, transform.position) < 0.02f)
         {
