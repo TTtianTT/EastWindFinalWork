@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TimeShow1 : MonoBehaviour
 {
-    private Text timeShowText;
+    public Text timeShowText;
     private float spendTime;
     private int hour;
     private int minute;

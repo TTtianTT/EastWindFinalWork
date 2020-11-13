@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    SafeGameData savegame = new SafeGameData();
     public GameObject endUI;
     public Text endMessage;
 

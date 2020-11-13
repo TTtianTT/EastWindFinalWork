@@ -9,6 +9,8 @@ public class SafeGameData : MonoBehaviour
     public static void SaveScore()
     {
         DateTime date = DateTime.Now;
+        TimeShow1 timeshow = new TimeShow1();
+        string time = timeshow.timeShowText.text; 
         string constructorString = "datasource=localhost;database=steamdb;user=root1;pwd=123456;charset=utf8";
         
         using (MySqlConnection conn = new MySqlConnection(constructorString))
@@ -19,7 +21,7 @@ public class SafeGameData : MonoBehaviour
                 cmd.Prepare();
                 cmd.Parameters.AddWithValue("@Name", "TLJava");
                 cmd.Parameters.AddWithValue("@date", date);
-                //cmd.Parameters.AddWithValue("time", time);
+                cmd.Parameters.AddWithValue("time", time);
                 cmd.ExecuteNonQuery();
             }
         }

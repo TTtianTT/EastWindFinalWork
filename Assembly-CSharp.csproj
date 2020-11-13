@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\GameControl\ViewController.cs" />
     <Compile Include="Assets\Scripts\MapCube.cs" />
     <Compile Include="Assets\Scripts\SaveGameData.cs" />
+    <Compile Include="Assets\Scripts\TimeShow1.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Arrow1.cs" />
     <Compile Include="Assets\Scripts\TurretControl\ArrowAppear.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Bullet.cs" />
@@ -97,7 +98,6 @@
     <Compile Include="Assets\Scripts\TurretControl\CatapultFire_Oscar.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Turret.cs" />
     <Compile Include="Assets\Scripts\TurretControl\TurretData.cs" />
-    <Compile Include="Assets\TimeShow1.cs" />
     <None Include="Assets\Import Assets\AurynSky\Forest Pack\READ ME.txt" />
     <None Include="Assets\Import Assets\Meshtint Free Barbarian\www.meshtint.com.txt" />
     <None Include="Assets\Import Assets\EgyptMonsters\Demo\DemoAssets\Shaders\GrassAnimate.shader" />
