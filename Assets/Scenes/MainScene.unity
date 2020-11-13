@@ -2822,6 +2822,10 @@ MonoBehaviour:
       type: 3}
     count: 1
     rate: 0
+  - enemyPrefab: {fileID: 8688646478869088581, guid: 98554057af261394a969ba341580b696,
+      type: 3}
+    count: 2
+    rate: 0.3
   START: {fileID: 933123042}
   waveRate: 0.2
 --- !u!1 &151552369
