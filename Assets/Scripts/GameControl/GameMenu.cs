@@ -10,6 +10,11 @@ public class GameMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void OnGradeGame()
+    {
+        SceneManager.LoadScene(2);
+    }
     public void OnExitGame()
     {
 #if UNITY_EDITOR

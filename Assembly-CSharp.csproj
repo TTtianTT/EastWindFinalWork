@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\GameControl\BuildManager.cs" />
     <Compile Include="Assets\Scripts\GameControl\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameControl\GameMenu.cs" />
+    <Compile Include="Assets\Scripts\GameControl\GameRecord.cs" />
     <Compile Include="Assets\Scripts\GameControl\ViewController.cs" />
     <Compile Include="Assets\Scripts\MapCube.cs" />
     <Compile Include="Assets\Scripts\SaveGameData.cs" />
@@ -102,19 +103,19 @@
     <None Include="Assets\Import Assets\EgyptMonsters\Demo\DemoAssets\Shaders\GrassAnimate.shader" />
     <None Include="Assets\Import Assets\EgyptMonsters\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -318,16 +319,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="mysql.data">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/学科学习资料/大三/大三上/.net架构程序设计/大作业/TowerDefense8.0/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/360Downloads/gittry5/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
