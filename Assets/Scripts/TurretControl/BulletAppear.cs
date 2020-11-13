@@ -16,15 +16,16 @@ public class BulletAppear : MonoBehaviour
     void Start()
     {
         timer = attackRateTime;
+        enemys = new List<GameObject>();
         //c2 = new CatapultFire_Oscar();
-        c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
+        //c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
     }
 
     // Update is called once per frame
     void Update()
     {
-        c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
-        enemys = c2.enemys;
+        //c2 = GameObject.Find("ForestCatapult_Red/ForestCatapultArm").GetComponent<CatapultFire_Oscar>();//获取ForesCatapultArm上面的enemys
+        //enemys = c2.enemys;
 
         timer += Time.deltaTime;
         if (enemys.Count > 0 && timer >= attackRateTime)
@@ -43,6 +44,11 @@ public class BulletAppear : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Enemy")
+        {
+            enemys.Add(other.gameObject);
+            Debug.Log("enemy in");
+        }
         if (other.tag == "Arm")
         {
             // Debug.Log("Tri");
@@ -62,6 +68,11 @@ public class BulletAppear : MonoBehaviour
         if (other.tag == "Arm")
         {
             //Debug.Log("Arm Exit");
+        }
+        if (other.tag == "Enemy")
+        {
+            enemys.Remove(other.gameObject);
+            Debug.Log("enemy out");
         }
 
     }

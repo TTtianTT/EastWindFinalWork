@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1286715945}
   - component: {fileID: 1286715947}
   - component: {fileID: 1286715946}
+  - component: {fileID: 6914151958790957831}
   m_Layer: 0
   m_Name: BulletPosition
   m_TagString: BulletPosition
@@ -57,11 +58,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7924d11bce708cc4d8d6071cabe23fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRateTime: 1
   bulletPosition: {fileID: 1286715945}
   bulletPrefab: {fileID: 2535681679908337380, guid: e97855d4b9cd1304a925804a3b522ccb,
     type: 3}
   enemys: []
   head: {fileID: 0}
+--- !u!135 &6914151958790957831
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286715944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1101224365213452
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemys: []
+  attackRateTime: 1
 --- !u!54 &596393291
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -691,6 +707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemys: []
+  attackRateTime: 1
 --- !u!1 &1752154064582352
 GameObject:
   m_ObjectHideFlags: 0

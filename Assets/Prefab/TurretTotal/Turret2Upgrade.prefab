@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemys: []
+  attackRateTime: 1
 --- !u!54 &7472239753753643927
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -559,6 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemys: []
+  attackRateTime: 1
 --- !u!1 &4117498440498794321
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +572,7 @@ GameObject:
   - component: {fileID: 375804007185784000}
   - component: {fileID: 8835243884135776965}
   - component: {fileID: 6678794412635603816}
+  - component: {fileID: 315827302871009837}
   m_Layer: 0
   m_Name: BulletPosition
   m_TagString: BulletPosition
@@ -616,11 +619,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7924d11bce708cc4d8d6071cabe23fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRateTime: 1
   bulletPosition: {fileID: 375804007185784000}
   bulletPrefab: {fileID: 2535681679908337380, guid: 2e0d8dfa55962b44b855cccf86367c83,
     type: 3}
   enemys: []
   head: {fileID: 7760779906957452175}
+--- !u!135 &315827302871009837
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117498440498794321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4614397368227597020
 GameObject:
   m_ObjectHideFlags: 0
