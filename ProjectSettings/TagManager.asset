@@ -8,6 +8,7 @@ TagManager:
   - Arm
   - BulletPosition
   - ArrowPosition
+  - CrossbowPosition
   layers:
   - Default
   - TransparentFX

@@ -96,6 +96,8 @@
     <Compile Include="Assets\Scripts\TurretControl\Bullet_os.cs" />
     <Compile Include="Assets\Scripts\TurretControl\BulletAppear.cs" />
     <Compile Include="Assets\Scripts\TurretControl\CatapultFire_Oscar.cs" />
+    <Compile Include="Assets\Scripts\TurretControl\CrossbowBullet.cs" />
+    <Compile Include="Assets\Scripts\TurretControl\CrossbowBulletAppear.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Turret.cs" />
     <Compile Include="Assets\Scripts\TurretControl\TurretData.cs" />
     <None Include="Assets\Import Assets\AurynSky\Forest Pack\READ ME.txt" />
