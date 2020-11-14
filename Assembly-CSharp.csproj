@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cartoon Heroes\Scripts\SetCharacter\SetCharacter.cs" />
     <Compile Include="Assets\Import Assets\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Import Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\Import Assets\AurynSky\Forest Pack\Scripts\Rotator.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\IKHands.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\WarriorAnimationDemoFREE.cs" />
+    <Compile Include="Assets\Mountain Terrain\Misc\CameraDefault.cs" />
     <Compile Include="Assets\Nokobot\Sci-Fi_Crossbow\Demo\Scripts\CrossbowShoot.cs" />
     <Compile Include="Assets\Scenes\mysql.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\EagleFly.cs" />
@@ -105,19 +107,19 @@
     <None Include="Assets\Import Assets\EgyptMonsters\Demo\DemoAssets\Shaders\GrassAnimate.shader" />
     <None Include="Assets\Import Assets\EgyptMonsters\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -321,16 +323,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="mysql.data">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/C#clone11.13-2/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/UnityTest/Test19/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
