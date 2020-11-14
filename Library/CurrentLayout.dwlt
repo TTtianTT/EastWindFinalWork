@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 47
+  controlID: 116
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 77
+  controlID: 48
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -466,7 +466,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab/Enemy3
+    - Assets/Cartoon Heroes/Weapons
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -478,7 +478,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 102c0000
     m_LastClickedID: 11280
-    m_ExpandedIDs: 00000000a60a0000dc0a0000080b0000180b0000200b0000c40b00007c0d0000a00e00002c1100005e11000074110000d811000050120000de130000c8140000de140000481500009415000024170000da170000681800005c3600005e36000060360000623600006436000066360000683600006a3600006c360000
+    m_ExpandedIDs: 00000000b60a0000ee0a0000020b0000420b00005e0b0000780b0000660c0000460d0000440f000094130000b813000054140000d8140000f21400001415000044150000b8150000e816000012170000aa18000032190000be190000041c0000c81c0000ee1c0000b21d0000105c0000125c0000145c0000165c0000185c00001a5c00001c5c00001e5c0000205c0000225c0000245c0000265c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,10 +503,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 416}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000a60a0000dc0a0000080b0000180b0000200b0000c40b0000260c00007c0d00005e11000074110000d8110000501200006e120000c2130000c8140000de140000481500009415000024170000da170000681800005c3600005e36000060360000623600006436000066360000683600006a3600006c3600007239000064d10000cee40000a2ea0000
+    m_ExpandedIDs: ffffffff00000000b60a0000ee0a0000020b0000420b00005e0b0000780b0000660c0000460d0000440f000094130000b813000054140000d8140000f21400001415000044150000b8150000e816000012170000aa18000032190000be190000041c0000c81c0000ee1c0000b21d0000105c0000125c0000145c0000165c0000185c00001a5c00001c5c00001e5c0000205c0000225c0000245c0000265c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,21 +751,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3e1bffff961bffff4c1cffff541dffff701dffffea20ffffb623ffffba25ffffe635ffff904cffff3c4fffffe851ffff
+      m_ExpandedIDs: c6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Male A
-        m_OriginalName: Male A
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 66954
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
