@@ -71,11 +71,11 @@
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DealDamageComponent.cs" />
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DemoController.cs" />
     <Compile Include="Assets\Import Assets\EgyptMonsters\Scripts\DestroyMe.cs" />
-    <Compile Include="Assets\Import Assets\Mountain Terrain\Misc\CameraDefault.cs" />
     <Compile Include="Assets\Import Assets\Nokobot\Sci-Fi_Crossbow\Demo\Scripts\CrossbowShoot.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\IKHands.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 2 FREE\Code\WarriorAnimationDemoFREE.cs" />
+    <Compile Include="Assets\Mountain Terrain\Misc\CameraDefault.cs" />
     <Compile Include="Assets\Scenes\mysql.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\EagleFly.cs" />
     <Compile Include="Assets\Scripts\AnimationControl\ForestArmFire.cs" />
@@ -90,7 +90,9 @@
     <Compile Include="Assets\Scripts\GameControl\GameRecord.cs" />
     <Compile Include="Assets\Scripts\GameControl\ViewController.cs" />
     <Compile Include="Assets\Scripts\MapCube.cs" />
+    <Compile Include="Assets\Scripts\mysql.cs" />
     <Compile Include="Assets\Scripts\SaveGameData.cs" />
+    <Compile Include="Assets\Scripts\TableCreate.cs" />
     <Compile Include="Assets\Scripts\TimeShow1.cs" />
     <Compile Include="Assets\Scripts\TurretControl\Arrow1.cs" />
     <Compile Include="Assets\Scripts\TurretControl\ArrowAppear.cs" />
@@ -103,23 +105,27 @@
     <Compile Include="Assets\Scripts\TurretControl\Turret.cs" />
     <Compile Include="Assets\Scripts\TurretControl\TurretData.cs" />
     <None Include="Assets\Import Assets\AurynSky\Forest Pack\READ ME.txt" />
+    <None Include="Assets\Import Assets\laxer Assets\creek\Shaders\RunningWater.shader" />
+    <None Include="Assets\Import Assets\laxer Assets\creek\Shaders\RunningWaterSimple.shader" />
     <None Include="Assets\Import Assets\Meshtint Free Barbarian\www.meshtint.com.txt" />
     <None Include="Assets\Import Assets\EgyptMonsters\Demo\DemoAssets\Shaders\GrassAnimate.shader" />
+    <None Include="Assets\Import Assets\laxer Assets\creek\Shaders\HeightBlendx5.shader" />
+    <None Include="Assets\Import Assets\greyRoadStudio\LowPolyTreePack\readme.txt" />
     <None Include="Assets\Import Assets\EgyptMonsters\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,16 +329,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="mysql.data">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Assets/Plugins/mysql.data.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/C#clone11.14-1/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/UnityTest/Test25/EastWindFinalWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

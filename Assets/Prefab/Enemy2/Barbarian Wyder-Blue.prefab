@@ -587,7 +587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8688646478869088581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.9632483, y: 1.5, z: 30.645054}
+  m_LocalPosition: {x: 7.9632483, y: 0, z: 30.645054}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 8688646478869517675}
@@ -630,8 +630,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a81ecfc8240642d4d836fdd945000d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  hp: 150
+  speed: 4
+  hp: 500
   explosionEffect: {fileID: 8817392488088842694, guid: c631075c8d0cd564883905fba623481d,
     type: 3}
   hpSlier: {fileID: 6277455521315292831}

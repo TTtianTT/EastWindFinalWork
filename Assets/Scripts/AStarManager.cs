@@ -43,32 +43,31 @@ public class AStarManager
                 nodes[i, j] = node;
             }
         }
-        //AStarNode node1 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
-        //nodes[1, 0] = node1;
-        //AStarNode node2 = new AStarNode(true, new Vector3(8, 3, 8), 2, 2);
-        //nodes[2, 2] = node2;
-        //AStarNode node3 = new AStarNode(true, new Vector3(16, 3, 16), 4, 4);
-        //nodes[4, 4] = node3;
-        //AStarNode node4 = new AStarNode(true, new Vector3(4, 3, 4), 1, 1);
-        //nodes[1, 1] = node4;
-        //AStarNode node5 = new AStarNode(true, new Vector3(4, 3, 8), 1, 2);
-        //nodes[1, 2] = node5;
-        //AStarNode node6 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
 
+
+    }
+    public void UpdateMap()
+    {
+        InitMapInfo(15, 15);
+        GameObject[] obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
+        foreach (GameObject gameObject in obstacles)
+        {
+            AStarNode node1 = new AStarNode(true, new Vector3(gameObject.transform.position.x, gameObject.transform.position.z, 0), (int)gameObject.transform.position.x / 4, (int)gameObject.transform.position.z / 4);
+            nodes[(int)gameObject.transform.position.x / 4, (int)gameObject.transform.position.z / 4] = node1;
+        }
     }
 
     public List<AStarNode> FindPath(Vector3 startPosition, Vector3 endPosition)
     {
-        InitMapInfo(15, 15);
+
         //坐标转换
         Vector2 startPos = new Vector2(startPosition.x / 4, startPosition.z / 4);
         Vector2 endPos = new Vector2(endPosition.x / 4, endPosition.z / 4);
 
-        //if(startPos.x <0 || startPos.x)  判断合法与否，可以省略先
-        //return null;
+
         AStarNode start = nodes[(int)startPos.x, (int)startPos.y];
         AStarNode end = nodes[(int)endPos.x, (int)endPos.y];
-        //if(start.isObstacle == true ||)
+
         closeList.Clear();
         openList.Clear();
 
@@ -92,7 +91,7 @@ public class AStarManager
             {
                 return null;//是死路
             }
-            //openList.Sort(SortOpenList);
+
             openList.Sort((p1, p2) => p1.fCost - p2.fCost);
 
             closeList.Add(openList[0]);

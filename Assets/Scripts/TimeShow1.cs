@@ -9,7 +9,7 @@ public class TimeShow1 : MonoBehaviour
     private float spendTime;
     private int hour;
     private int minute;
-    private int second;
+    public int second;
     private int milliSecond;
     // Start is called before the first frame update
     void Start()

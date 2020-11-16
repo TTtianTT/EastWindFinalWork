@@ -3880,8 +3880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a81ecfc8240642d4d836fdd945000d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  hp: 150
+  speed: 8
+  hp: 750
   explosionEffect: {fileID: 8817392488088842694, guid: c631075c8d0cd564883905fba623481d,
     type: 3}
   hpSlier: {fileID: 5558301277364882555}

@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
         Vector3 startPosition = new Vector3(0, 3, 0);
         Vector3 endPosition = new Vector3(56, 3, 56);
         pos = new List<AStarNode>();
+        AStarManager.getInstance().UpdateMap();
         pos = AStarManager.getInstance().FindPath(startPosition, endPosition);
     }
     void Start()
@@ -37,7 +38,6 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Move();
-        //ChangeMap();
 
     }
 
@@ -90,44 +90,4 @@ public class Enemy : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    void FindMap()
-    {
-        var gameobj = GameObject.Find("GrassCube (115)");
-        Vector3 vec = gameobj.transform.position;
-        if (gameobj == null)
-        {
-            Debug.Log("没找到");
-        }
-        else
-        {
-            Debug.Log("找到了");
-            Debug.Log(vec.x);
-            Debug.Log(vec.z);//成功
-        }
-    }
-    void ChangeMap()
-    {
-        AStarNode node1 = new AStarNode(true, new Vector3(4, 3, 0), 1, 0);
-        AStarManager.getInstance().nodes[1, 0] = node1;
-
-        //int x = (int)vector.x / 4;
-        //int y = (int)vector.y / 4;
-        //AStarNode node1 = new AStarNode(true,vector, x, y);
-        //AStarManager.getInstance().nodes[x, y] = node1;
-    }
-
-    //void InitMap()
-    //{
-    //    for(int i=1;i<=224;i++)//将位置数组填充
-    //    {
-    //        var gameobj = GameObject.Find($"GrassCube ({i})");
-    //        Vector3 vec = gameobj.transform.position;
-    //        int x = Convert.ToInt32(vec.x);
-    //        int z = Convert.ToInt32(vec.z);
-    //        //float x = vec.x;
-    //        //float z = vec.z;
-    //        this.mapStatus[x / 4, z / 4] = false;
-    //        Debug.Log(this.mapStatus[x / 4, z / 4]);
-    //    }
-    //}
 }
